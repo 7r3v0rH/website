@@ -1,0 +1,161 @@
+
+a {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F0EBE3
+}
+
+/*Use rem to set font size for specific elements so it ignores it's parent settings
+and set's size relative to the default size. 1rem = 16 px 100% = 16px */
+
+h1 {
+  color: #66BFBF;
+  background-color: #7D9D9C;
+  font-size: 5.6rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+hr{
+  border: dotted white 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.webdev {
+  font-size: 2.5rem;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-container {
+  background-color: #7D9D9C;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #F0EBE3;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #7D9D9C
+}
+
+.contact-me {
+  background-color: #F0EBE3;
+}
+
+.copyright {
+  color: white;
+  font-size: .6rem;
+  padding: 20px 0;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 90px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.img11 {
+  margin-top: 6px;
+  width: 200px;
+  height: 200px;
+}
+
+/* The float property puts the img and the text on the same line with the speicified
+direction*/
+
+.loading {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* The clear property clears the specified side of the class you select, basically and anti-float property*/
+
+.camera {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Margin: auto; centers the selected items*/
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
